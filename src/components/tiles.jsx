@@ -6,7 +6,8 @@ class Tiles extends React.Component {
     render(){
         return(
             <div>
-                <p>This is the Titles component</p>
+                <h1>Weather Finder</h1>
+                <p>Enter a city and find out the temperature and more...</p>
             </div> 
         )
     }
