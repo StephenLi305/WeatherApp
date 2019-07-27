@@ -65,8 +65,6 @@ class App extends React.Component {
         error: "Please enter in a city and country",
       })
     }
-
-    console.log(this.state);
   }
 
 
