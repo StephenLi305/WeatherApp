@@ -33,18 +33,40 @@ class App extends React.Component {
     let api_call = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${APIKey}`)
     let data = await api_call.json();
     
-    console.log(data)
-    let farenheit = Math.floor(((data.main.temp - 273.15) * 9/5 + 32) * 100) / 100
-    this.setState({
-      farenheit: farenheit,
-      city: data.name,
-      country: data.sys.country,
-      humidity: data.main.humidity,
-      description: data.weather[0].description,
+    console.log(data);
+    if(city && country){
+      if(data.name){
+        let farenheit = Math.floor(((data.main.temp - 273.15) * 9/5 + 32) * 100) / 100;
+        this.setState({
+          farenheit: farenheit,
+          city: data.name,
+          country: data.sys.country,
+          humidity: data.main.humidity,
+          description: data.weather[0].description,
+          error: undefined,
+        })
+      } else {
+        this.setState({
+          farenheit: undefined,
+          city: undefined,
+          country: undefined,
+          humidity: undefined,
+          description: undefined,
+          error: data.message,
+        })
+      }
+    } else {
+      this.setState({
+        farenheit: undefined,
+        city: undefined,
+        country: undefined,
+        humidity: undefined,
+        description: undefined,
+        error: "Please enter in a city and country",
+      })
+    }
 
-    })
-
-    console.log(this.state)
+    console.log(this.state);
   }
 
 
