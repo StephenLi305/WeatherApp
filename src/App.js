@@ -82,7 +82,9 @@ class App extends React.Component {
           description = {this.state.description}
           error = {this.state.error}
         />
-        <Visual />
+        <Visual 
+          description = {this.state.description}
+        />
       </div>
     );
   }
