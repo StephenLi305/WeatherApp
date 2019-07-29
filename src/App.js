@@ -6,6 +6,7 @@ import './App.css';
 import Tiles from './components/tiles';
 import Form from './components/form';
 import Weather from './components/weather';
+import Visual from './components/visual';
 
 
 const APIKey = '422c35cb0b7aacd075e81aafe28f1520'
@@ -81,6 +82,7 @@ class App extends React.Component {
           description = {this.state.description}
           error = {this.state.error}
         />
+        <Visual />
       </div>
     );
   }
