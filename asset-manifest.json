@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/WeatherApp/static/css/main.fcab5801.chunk.css",
+    "main.js": "/WeatherApp/static/js/main.18af4a2d.chunk.js",
+    "main.js.map": "/WeatherApp/static/js/main.18af4a2d.chunk.js.map",
+    "runtime~main.js": "/WeatherApp/static/js/runtime~main.3044ef82.js",
+    "runtime~main.js.map": "/WeatherApp/static/js/runtime~main.3044ef82.js.map",
+    "static/js/2.9ebd63bc.chunk.js": "/WeatherApp/static/js/2.9ebd63bc.chunk.js",
+    "static/js/2.9ebd63bc.chunk.js.map": "/WeatherApp/static/js/2.9ebd63bc.chunk.js.map",
+    "index.html": "/WeatherApp/index.html",
+    "precache-manifest.8656eef264030dba3b6133912705a5d2.js": "/WeatherApp/precache-manifest.8656eef264030dba3b6133912705a5d2.js",
+    "service-worker.js": "/WeatherApp/service-worker.js",
+    "static/css/main.fcab5801.chunk.css.map": "/WeatherApp/static/css/main.fcab5801.chunk.css.map",
+    "static/media/ClearSkies.jpg": "/WeatherApp/static/media/ClearSkies.5e3297c8.jpg",
+    "static/media/FewClouds.jpg": "/WeatherApp/static/media/FewClouds.45455696.jpg",
+    "static/media/Mist.jpg": "/WeatherApp/static/media/Mist.04414fa6.jpg",
+    "static/media/Rain.gif": "/WeatherApp/static/media/Rain.ddb310e8.gif",
+    "static/media/ScatterClouds.jpg": "/WeatherApp/static/media/ScatterClouds.6605f1df.jpg",
+    "static/media/Snow.jpg": "/WeatherApp/static/media/Snow.32f18b14.jpg",
+    "static/media/Thunderstorm.jpg": "/WeatherApp/static/media/Thunderstorm.a71db71c.jpg",
+    "static/media/brokenClouds.png": "/WeatherApp/static/media/brokenClouds.571809a1.png",
+    "static/media/showerRain.jpg": "/WeatherApp/static/media/showerRain.eeaf297b.jpg"
+  }
+}
