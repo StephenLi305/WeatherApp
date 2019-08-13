@@ -6,7 +6,6 @@ import './App.css';
 import Tiles from './components/tiles';
 import Form from './components/form';
 import Weather from './components/weather';
-import Visual from './components/visual';
 
 
 const APIKey = '422c35cb0b7aacd075e81aafe28f1520'
@@ -71,20 +70,29 @@ class App extends React.Component {
 
   render(){
     return (
-      <div className="App">
-        <Tiles />
-        <Form getWeather={this.getWeather}/>
-        <Weather 
-          farenheit = {this.state.farenheit}
-          city = {this.state.city}
-          country = {this.state.country}
-          humidity = {this.state.humidity}
-          description = {this.state.description}
-          error = {this.state.error}
-        />
-        <Visual 
-          description = {this.state.description}
-        />
+      <div>
+        <div className="wrapper">
+          <div className="main">
+            <div className="container">
+              <div className="row">
+                <div className="col-xs-5 title-container">
+                  <Tiles/>
+                </div>
+                <div className="col-xs-7 form-container">
+                  <Form getWeather={this.getWeather} />
+                  <Weather
+                    farenheit={this.state.farenheit}
+                    city={this.state.city}
+                    country={this.state.country}
+                    humidity={this.state.humidity}
+                    description={this.state.description}
+                    error={this.state.error}
+                    />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
