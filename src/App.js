@@ -6,7 +6,7 @@ import './App.css';
 import Tiles from './components/tiles';
 import Form from './components/form';
 import Weather from './components/weather';
-import Visual from './components/visual';
+// import Visual from './components/visual';
 
 
 const APIKey = '422c35cb0b7aacd075e81aafe28f1520'
@@ -44,6 +44,7 @@ class App extends React.Component {
           country: data.sys.country,
           humidity: data.main.humidity,
           description: data.weather[0].description,
+          icon: data.weather[0].icon,
           error: undefined,
         })
       } else {
@@ -53,6 +54,7 @@ class App extends React.Component {
           country: undefined,
           humidity: undefined,
           description: undefined,
+          icon: undefined,
           error: data.message,
         })
       }
@@ -87,9 +89,9 @@ class App extends React.Component {
                     country={this.state.country}
                     humidity={this.state.humidity}
                     description={this.state.description}
+                    icon={this.state.icon}
                     error={this.state.error}
                     />
-                  <Visual description={this.state.description} />
                 </div>
               </div>
             </div>

@@ -2,6 +2,7 @@ import React from 'react';
 
 
 const Weather = props => {
+    
     return(
         <div className="weather__info">
             {
@@ -23,8 +24,9 @@ const Weather = props => {
             }
 
             {
-                props.description && <p className="weather__key">Description: 
+                props.description && props.icon && <p className="weather__key">Description: 
                     <span className="weather__value"> {props.description}</span>
+                    <img src={`http://openweathermap.org/img/wn/${props.icon}@2x.png`} alt="icon" />
                 </p>
             }
             
@@ -33,6 +35,8 @@ const Weather = props => {
                     <span className="weather__value"> {props.error}</span>
                 </p>
             }
+
+
         </div>
     )
 }
