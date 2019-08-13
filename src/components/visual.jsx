@@ -13,7 +13,6 @@ import Mist from '../images/Mist.jpg'
 
 
 const Visual = props => {
-    console.log(props)
     return(
         <div>
             {props.description === "clear sky" ? <img src={ClearSkies} alt="Clear Skies" /> : null}
