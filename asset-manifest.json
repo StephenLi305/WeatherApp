@@ -1,24 +1,19 @@
 {
   "files": {
-    "main.css": "/WeatherApp/static/css/main.fcab5801.chunk.css",
-    "main.js": "/WeatherApp/static/js/main.18af4a2d.chunk.js",
-    "main.js.map": "/WeatherApp/static/js/main.18af4a2d.chunk.js.map",
+    "main.css": "/WeatherApp/static/css/main.418743ee.chunk.css",
+    "main.js": "/WeatherApp/static/js/main.c8582d43.chunk.js",
+    "main.js.map": "/WeatherApp/static/js/main.c8582d43.chunk.js.map",
     "runtime~main.js": "/WeatherApp/static/js/runtime~main.3044ef82.js",
     "runtime~main.js.map": "/WeatherApp/static/js/runtime~main.3044ef82.js.map",
-    "static/js/2.9ebd63bc.chunk.js": "/WeatherApp/static/js/2.9ebd63bc.chunk.js",
-    "static/js/2.9ebd63bc.chunk.js.map": "/WeatherApp/static/js/2.9ebd63bc.chunk.js.map",
+    "static/css/2.cf4e8d92.chunk.css": "/WeatherApp/static/css/2.cf4e8d92.chunk.css",
+    "static/js/2.fae15720.chunk.js": "/WeatherApp/static/js/2.fae15720.chunk.js",
+    "static/js/2.fae15720.chunk.js.map": "/WeatherApp/static/js/2.fae15720.chunk.js.map",
     "index.html": "/WeatherApp/index.html",
-    "precache-manifest.84983874c5c4d9de473ccca5e4a75718.js": "/WeatherApp/precache-manifest.84983874c5c4d9de473ccca5e4a75718.js",
+    "precache-manifest.6b032b2c0ea17a86a24fd34ccda6d2cf.js": "/WeatherApp/precache-manifest.6b032b2c0ea17a86a24fd34ccda6d2cf.js",
     "service-worker.js": "/WeatherApp/service-worker.js",
-    "static/css/main.fcab5801.chunk.css.map": "/WeatherApp/static/css/main.fcab5801.chunk.css.map",
-    "static/media/ClearSkies.jpg": "/WeatherApp/static/media/ClearSkies.5e3297c8.jpg",
-    "static/media/FewClouds.jpg": "/WeatherApp/static/media/FewClouds.45455696.jpg",
-    "static/media/Mist.jpg": "/WeatherApp/static/media/Mist.04414fa6.jpg",
-    "static/media/Rain.gif": "/WeatherApp/static/media/Rain.ddb310e8.gif",
-    "static/media/ScatterClouds.jpg": "/WeatherApp/static/media/ScatterClouds.6605f1df.jpg",
-    "static/media/Snow.jpg": "/WeatherApp/static/media/Snow.32f18b14.jpg",
-    "static/media/Thunderstorm.jpg": "/WeatherApp/static/media/Thunderstorm.a71db71c.jpg",
-    "static/media/brokenClouds.png": "/WeatherApp/static/media/brokenClouds.571809a1.png",
-    "static/media/showerRain.jpg": "/WeatherApp/static/media/showerRain.eeaf297b.jpg"
+    "static/css/2.cf4e8d92.chunk.css.map": "/WeatherApp/static/css/2.cf4e8d92.chunk.css.map",
+    "static/css/main.418743ee.chunk.css.map": "/WeatherApp/static/css/main.418743ee.chunk.css.map",
+    "static/media/App.css": "/WeatherApp/static/media/bg.b6796c73.jpg",
+    "static/media/bootstrap.min.css": "/WeatherApp/static/media/glyphicons-halflings-regular.fa277232.woff"
   }
 }
