@@ -125,3 +125,19 @@ button:active {
   letter-spacing: 1px;
   font-weight: 200;
 }
+
+
+.footer {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+   height:auto;
+  }
+
+i{
+  font-size: 40px;
+  margin: 15px;
+  color: white;
+}
